@@ -11,6 +11,7 @@ namespace RPGTask
         public int AttackForce { get; set; } = 20;
 
         public override int Health { get; set; } = 100;
+
         public override void Attack()
         {
             Console.WriteLine($"Knight is hitting! Force: {AttackForce}, Health: {Health}");
