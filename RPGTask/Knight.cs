@@ -15,4 +15,5 @@ namespace RPGTask
         {
             Console.WriteLine($"Knight is hitting! Force: {AttackForce}, Health: {Health}");
         }
+    }
 }
